@@ -147,37 +147,37 @@ class MainViewController: UIViewController {
             scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             
             doButton.widthAnchor.constraint(equalToConstant: 50),
-            doButton.heightAnchor.constraint(equalToConstant: 300),
+            doButton.heightAnchor.constraint(equalToConstant: 200),
             doButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             doButton.leadingAnchor.constraint(equalTo: scrollView.leadingAnchor, constant: 5),
             
             reButton.widthAnchor.constraint(equalToConstant: 50),
-            reButton.heightAnchor.constraint(equalToConstant: 300),
+            reButton.heightAnchor.constraint(equalToConstant: 200),
             reButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             reButton.leadingAnchor.constraint(equalTo: doButton.trailingAnchor, constant: 9),
             
             miButton.widthAnchor.constraint(equalToConstant: 50),
-            miButton.heightAnchor.constraint(equalToConstant: 300),
+            miButton.heightAnchor.constraint(equalToConstant: 200),
             miButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             miButton.leadingAnchor.constraint(equalTo: reButton.trailingAnchor, constant: 9),
             
             faButton.widthAnchor.constraint(equalToConstant: 50),
-            faButton.heightAnchor.constraint(equalToConstant: 300),
+            faButton.heightAnchor.constraint(equalToConstant: 200),
             faButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             faButton.leadingAnchor.constraint(equalTo: miButton.trailingAnchor, constant: 9),
             
             solButton.widthAnchor.constraint(equalToConstant: 50),
-            solButton.heightAnchor.constraint(equalToConstant: 300),
+            solButton.heightAnchor.constraint(equalToConstant: 200),
             solButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             solButton.leadingAnchor.constraint(equalTo: faButton.trailingAnchor, constant: 9),
             
             lyaButton.widthAnchor.constraint(equalToConstant: 50),
-            lyaButton.heightAnchor.constraint(equalToConstant: 300),
+            lyaButton.heightAnchor.constraint(equalToConstant: 200),
             lyaButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             lyaButton.leadingAnchor.constraint(equalTo: solButton.trailingAnchor, constant: 9),
 
             siButton.widthAnchor.constraint(equalToConstant: 50),
-            siButton.heightAnchor.constraint(equalToConstant: 300),
+            siButton.heightAnchor.constraint(equalToConstant: 200),
             siButton.topAnchor.constraint(equalTo: scrollView.topAnchor, constant: 40),
             siButton.leadingAnchor.constraint(equalTo: lyaButton.trailingAnchor, constant: 9),
 
