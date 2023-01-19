@@ -14,6 +14,7 @@
 		4C10DAF72979A3F800420D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C10DAF52979A3F800420D94 /* LaunchScreen.storyboard */; };
 		4C10DAFF2979A5D000420D94 /* ViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10DAFE2979A5D000420D94 /* ViewControllerDelegate.swift */; };
 		4C10DB012979B15200420D94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10DB002979B15200420D94 /* Constants.swift */; };
+		4C10DB032979B3CC00420D94 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C10DB022979B3CC00420D94 /* ViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4C10DAF82979A3F800420D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C10DAFE2979A5D000420D94 /* ViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDelegate.swift; sourceTree = "<group>"; };
 		4C10DB002979B15200420D94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4C10DB022979B3CC00420D94 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				4C10DAF52979A3F800420D94 /* LaunchScreen.storyboard */,
 				4C10DAF82979A3F800420D94 /* Info.plist */,
 				4C10DB002979B15200420D94 /* Constants.swift */,
+				4C10DB022979B3CC00420D94 /* ViewModels.swift */,
 			);
 			path = PianoKeys;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C10DB032979B3CC00420D94 /* ViewModels.swift in Sources */,
 				4C10DB012979B15200420D94 /* Constants.swift in Sources */,
 				4C10DAEF2979A3F500420D94 /* MainViewController.swift in Sources */,
 				4C10DAFF2979A5D000420D94 /* ViewControllerDelegate.swift in Sources */,

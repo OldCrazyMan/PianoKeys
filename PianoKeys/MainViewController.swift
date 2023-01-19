@@ -22,132 +22,93 @@ class MainViewController: UIViewController {
     
     private lazy var doButton: UIButton = {
         let button = UIButton()
-        button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(pushDoButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedDoButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var reButton: UIButton = {
-        let button = UIButton()
+        let button = WhiteButtonModel()
         button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(pushReButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedReButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var miButton: UIButton = {
-        let button = UIButton()
+        let button = WhiteButtonModel()
         button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
         button.addTarget(self, action: #selector(pushMiButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedMiButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var faButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
+        let button = WhiteButtonModel()
         button.addTarget(self, action: #selector(pushFaButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedFaButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var solButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
+        let button = WhiteButtonModel()
         button.addTarget(self, action: #selector(pushSolButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedSolButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var lyaButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
+        let button = WhiteButtonModel()
         button.addTarget(self, action: #selector(pushLyaButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedLyaButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var siButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.whiteButton, for: .normal)
-        button.clipsToBounds = true
-        button.layer.cornerRadius = 10
+        let button = WhiteButtonModel()
         button.addTarget(self, action: #selector(pushSiButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedSiButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var doDiesButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.blackButton, for: .normal)
-        button.clipsToBounds = true
+        let button = BlackButtonModel()
         button.addTarget(self, action: #selector(pushDoDiesButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedDoDiesButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var reDiesButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.blackButton, for: .normal)
-        button.clipsToBounds = true
+        let button = BlackButtonModel()
         button.addTarget(self, action: #selector(pushReDiesButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedReDiesButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var faDiesButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.blackButton, for: .normal)
-        button.clipsToBounds = true
+        let button = BlackButtonModel()
         button.addTarget(self, action: #selector(pushFaDiesButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedFaDiesButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var solDiesButton: UIButton = {
-        let button = UIButton()
-        button.setImage(Constants.Image.blackButton, for: .normal)
-        button.clipsToBounds = true
+        let button = BlackButtonModel()
         button.addTarget(self, action: #selector(pushSolDiesButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedSolDiesButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     private lazy var lyaDiesButton: UIButton = {
-        let button = UIButton()
+        let button = BlackButtonModel()
         button.setImage(Constants.Image.blackButton, for: .normal)
-        button.clipsToBounds = true
         button.addTarget(self, action: #selector(pushLyaDiesButton), for: .touchDown)
         button.addTarget(self, action: #selector(releasedLyaDiesButton), for: .touchUpInside)
-        button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
     
     // MARK: - viewDidLoad
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0.09019608051, green: 0, blue: 0.3019607961, alpha: 1)
@@ -176,6 +137,7 @@ class MainViewController: UIViewController {
     }
     
     // MARK: - setConstrints
+    
     private func setConstrints() {
       
         NSLayoutConstraint.activate([
